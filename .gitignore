@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Database (do not version SQLite)
+database/analytics
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Temporary
+data_clean/
